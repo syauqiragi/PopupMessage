@@ -18,5 +18,5 @@ target 'PopupMessageExample' do
   use_frameworks!
 
   # Pods for PopupMessageExample
-  pod "PopupMessage", '~> 0.0.1'
+  pod "PopupMessage"
 end

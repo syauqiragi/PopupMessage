@@ -1,0 +1,6 @@
+framework module PopupMessage {
+  umbrella header "PopupMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

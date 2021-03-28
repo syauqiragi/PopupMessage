@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Popup Message View Controller-->
+        <scene sceneID="CjZ-Ta-lgf">
+            <objects>
+                <viewController storyboardIdentifier="PopupMessageViewController" modalPresentationStyle="overCurrentContext" id="uqZ-bb-4fn" customClass="PopupMessageViewController" customModule="AHA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gDY-dD-Os5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MD4-Be-AK3">
+                                <rect key="frame" x="24" y="391" width="366" height="124.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="BCK-Oj-Wia">
+                                        <rect key="frame" x="16" y="16" width="334" height="52.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvJ-oX-6Rk">
+                                                <rect key="frame" x="0.0" y="0.0" width="334" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="desc" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yy8-b9-Zob">
+                                                <rect key="frame" x="0.0" y="35.5" width="334" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="qWb-Oc-1O0">
+                                        <rect key="frame" x="238" y="84.5" width="112" height="24"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfu-Lr-fLm">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                                <state key="normal" title="NO">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tapNoButton:" destination="uqZ-bb-4fn" eventType="touchUpInside" id="INc-V1-pga"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNU-Sv-Msn">
+                                                <rect key="frame" x="64" y="0.0" width="48" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                                <state key="normal" title="YES">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tapYesButton:" destination="uqZ-bb-4fn" eventType="touchUpInside" id="Vo5-xE-vi9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="BCK-Oj-Wia" firstAttribute="top" secondItem="MD4-Be-AK3" secondAttribute="top" constant="16" id="ECp-cn-XG9"/>
+                                    <constraint firstItem="qWb-Oc-1O0" firstAttribute="top" secondItem="BCK-Oj-Wia" secondAttribute="bottom" constant="16" id="Gqf-90-YOk"/>
+                                    <constraint firstAttribute="bottom" secondItem="qWb-Oc-1O0" secondAttribute="bottom" constant="16" id="QQQ-6x-6XL"/>
+                                    <constraint firstItem="BCK-Oj-Wia" firstAttribute="leading" secondItem="MD4-Be-AK3" secondAttribute="leading" constant="16" id="SJT-xX-r2d"/>
+                                    <constraint firstItem="qWb-Oc-1O0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MD4-Be-AK3" secondAttribute="leading" constant="16" id="WnV-Ek-qPD"/>
+                                    <constraint firstAttribute="trailing" secondItem="BCK-Oj-Wia" secondAttribute="trailing" constant="16" id="mOk-F1-Owa"/>
+                                    <constraint firstAttribute="trailing" secondItem="qWb-Oc-1O0" secondAttribute="trailing" constant="16" id="qEH-Ux-wJi"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Uw1-gv-JvD"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Uw1-gv-JvD" firstAttribute="trailing" secondItem="MD4-Be-AK3" secondAttribute="trailing" constant="24" id="FvH-Th-oP2"/>
+                            <constraint firstItem="MD4-Be-AK3" firstAttribute="centerX" secondItem="Uw1-gv-JvD" secondAttribute="centerX" id="O5p-oB-cmj"/>
+                            <constraint firstItem="MD4-Be-AK3" firstAttribute="centerY" secondItem="Uw1-gv-JvD" secondAttribute="centerY" id="WnF-D7-G4Z"/>
+                            <constraint firstItem="MD4-Be-AK3" firstAttribute="leading" secondItem="Uw1-gv-JvD" secondAttribute="leading" constant="24" id="jz1-wE-T0T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="MD4-Be-AK3" id="fnz-Ya-11f"/>
+                        <outlet property="descLabel" destination="Yy8-b9-Zob" id="MLx-yz-8lT"/>
+                        <outlet property="noButton" destination="Wfu-Lr-fLm" id="FXc-zj-ums"/>
+                        <outlet property="titleLabel" destination="BvJ-oX-6Rk" id="QdL-wS-aDd"/>
+                        <outlet property="yesButton" destination="bNU-Sv-Msn" id="tLD-Qo-6Ud"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdU-PF-iX3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60.869565217391312" y="45.535714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

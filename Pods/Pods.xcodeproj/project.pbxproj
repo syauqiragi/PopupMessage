@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC056782DCF36756605F501A034BB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5047349A5DDF98A02E69229CF12821DF /* Pods-PopupMessageExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A467D907467E04A7E9A3ADB5573D5A /* Pods-PopupMessageExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C53E5625A0C5AD076096985CCF516D2 /* PopupMessageViewController.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = A184450B59AA73E7CDB3FE785A905C8A /* PopupMessageViewController.storyboard */; };
+		61DB057F6A392D273D19B3EC7CFE8DD7 /* Pods-PopupMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEA12930243083899AC898C97FF3EE /* Pods-PopupMessage-dummy.m */; };
+		867E7DE2CBA720D8933BB4036AA2D096 /* Pods-PopupMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7FE9AE8B1BC8A0846FA250A3581149 /* Pods-PopupMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A951ED13E184ED6BF6B8D33BE24F87 /* Pods-PopupMessage-PopupMessageTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F07F2EAFB1572525E223B9E2A47A5607 /* Pods-PopupMessage-PopupMessageTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC5E55715F4618B3228AD57CB06022B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		93F0F7F64060474538ED6B3BB024DE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9CB1DD44D4DF6A3749FBA9C015DB4E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9FA757F96BB036C9E99D595B92B395CD /* Pods-PopupMessage-PopupMessageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 317CA081AC92E9BB5C2E04BF0FEE7238 /* Pods-PopupMessage-PopupMessageTests-dummy.m */; };
+		AD341DEF4C36D08D492E629C78A7523E /* PopupMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3D10D3D715D6597716D4E20948317 /* PopupMessageViewController.swift */; };
+		B885DE9C37750D683F83D14460ACE280 /* PopupMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717302CBD9A07B588A296DD9E350C033 /* PopupMessage.swift */; };
+		C132F7335328919F755000D821C0D25F /* Pods-PopupMessageExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C9A63C75E8265E63C49313AC52528 /* Pods-PopupMessageExample-dummy.m */; };
+		C59F273740179A18E9B56DD376E65436 /* PopupMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A393D6322A4337D779CCEDC9DFDE7 /* PopupMessage-dummy.m */; };
+		DF6E892C7F5636F7EF0A5EE302C420AA /* PopupMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E5AAF98985574AE535134CFF13A77B /* PopupMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA47975987B052FD3E573B6DEDE32336 /* PopupMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 804AFC9B66F2950BC1C4BECB27E30E71 /* PopupMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		005E20B9960CB54EA6A715D3D0B4C01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6C8E7433CCB39EA68DF1DE674B4441;
+			remoteInfo = PopupMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F8D01E7890F22DE0602983F20376B4 /* PopupMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupMessage.release.xcconfig; sourceTree = "<group>"; };
+		039B87003E1A3D84632D9BF9ABCFE86C /* Pods-PopupMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopupMessage.modulemap"; sourceTree = "<group>"; };
+		18DFC541364D62A78A9020B832324FBA /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopupMessage-PopupMessageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AB3C522E023DE9632A5551B1EB26981 /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopupMessage-PopupMessageTests.release.xcconfig"; sourceTree = "<group>"; };
+		28068637B9F214F4FF46292F7DD77F81 /* Pods-PopupMessageExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopupMessageExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BDE5287D564C182F301CA3D31CE46B9 /* Pods-PopupMessageExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopupMessageExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		317CA081AC92E9BB5C2E04BF0FEE7238 /* Pods-PopupMessage-PopupMessageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopupMessage-PopupMessageTests-dummy.m"; sourceTree = "<group>"; };
+		3B568EE902F8BD1BEA53A5755FE979C7 /* Pods_PopupMessage_PopupMessageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopupMessage_PopupMessageTests.framework; path = "Pods-PopupMessage-PopupMessageTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34B70AB6CF92C98A308EA02D99971A /* PopupMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupMessage.modulemap; sourceTree = "<group>"; };
+		44A196D5B1278FF93ADC3675FCAE7B11 /* Pods-PopupMessage-PopupMessageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopupMessage-PopupMessageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49094CC909FC2CE79C9C6F27BB684296 /* Pods-PopupMessageExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopupMessageExample-frameworks.sh"; sourceTree = "<group>"; };
+		4CBB1229C9B0B38BE643F3BC81E0DBCC /* Pods_PopupMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopupMessage.framework; path = "Pods-PopupMessage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505C9A63C75E8265E63C49313AC52528 /* Pods-PopupMessageExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopupMessageExample-dummy.m"; sourceTree = "<group>"; };
+		58E5AAF98985574AE535134CFF13A77B /* PopupMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PopupMessage.h; path = PopupMessage/PopupMessage.h; sourceTree = "<group>"; };
+		616F4E34E3656296AB48440E7B843164 /* Pods_PopupMessageExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PopupMessageExample.framework; path = "Pods-PopupMessageExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A3F46883EC27B0805EFEAB51023176 /* PopupMessage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopupMessage-Info.plist"; sourceTree = "<group>"; };
+		6AF3D10D3D715D6597716D4E20948317 /* PopupMessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupMessageViewController.swift; path = PopupMessage/PopupMessageViewController.swift; sourceTree = "<group>"; };
+		717302CBD9A07B588A296DD9E350C033 /* PopupMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupMessage.swift; path = PopupMessage/PopupMessage.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75FB2C31E70CFC9D24AE346BFB62F5D7 /* Pods-PopupMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopupMessage.release.xcconfig"; sourceTree = "<group>"; };
+		78E3A8355308BCC4A8ACD3FEB10CF62A /* Pods-PopupMessage-PopupMessageTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopupMessage-PopupMessageTests-Info.plist"; sourceTree = "<group>"; };
+		804AFC9B66F2950BC1C4BECB27E30E71 /* PopupMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupMessage-umbrella.h"; sourceTree = "<group>"; };
+		81E00ED376AF95A77A2139DA1E8394DE /* PopupMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupMessage.framework; path = PopupMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8957E6001316D87B7A6BD3A53A23A46F /* PopupMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupMessage.debug.xcconfig; sourceTree = "<group>"; };
+		93D88D56757FBBF3196FA90C86D913BB /* PopupMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupMessage-prefix.pch"; sourceTree = "<group>"; };
+		96C55CFABCC32A28AB18B7ACABA9C757 /* Pods-PopupMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopupMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		9C774D34231C4EAA76FF5B0ABBC0EEE4 /* Pods-PopupMessageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopupMessageExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A184450B59AA73E7CDB3FE785A905C8A /* PopupMessageViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = PopupMessageViewController.storyboard; path = PopupMessage/PopupMessageViewController.storyboard; sourceTree = "<group>"; };
+		A6731FA53B0D98F77A621DCCD63EE6C4 /* Pods-PopupMessage-PopupMessageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopupMessage-PopupMessageTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A742992E490EAC2FB7C1FEBFECA7DBBA /* Pods-PopupMessage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopupMessage-Info.plist"; sourceTree = "<group>"; };
+		B7A467D907467E04A7E9A3ADB5573D5A /* Pods-PopupMessageExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopupMessageExample-umbrella.h"; sourceTree = "<group>"; };
+		BE50A7B5CA1ACD1AB5EE9632737049C7 /* Pods-PopupMessageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopupMessageExample.release.xcconfig"; sourceTree = "<group>"; };
+		BE7FE9AE8B1BC8A0846FA250A3581149 /* Pods-PopupMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopupMessage-umbrella.h"; sourceTree = "<group>"; };
+		C6FEA12930243083899AC898C97FF3EE /* Pods-PopupMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PopupMessage-dummy.m"; sourceTree = "<group>"; };
+		C8EDAB7D6FE0D8FA8EB6FC40A1FD7768 /* Pods-PopupMessage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopupMessage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C96E63308EAB9DE57A010ACA9E41D761 /* Pods-PopupMessage-PopupMessageTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopupMessage-PopupMessageTests.modulemap"; sourceTree = "<group>"; };
+		CD50F365128C3234F59FD41F1FEEDEB9 /* Pods-PopupMessage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopupMessage-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFDEFB2D84A4461BFD0E9DCC1A96FAAD /* Pods-PopupMessageExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopupMessageExample.modulemap"; sourceTree = "<group>"; };
+		E1E8E3355967A4C1200C70753A429334 /* Pods-PopupMessageExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopupMessageExample-Info.plist"; sourceTree = "<group>"; };
+		E79A393D6322A4337D779CCEDC9DFDE7 /* PopupMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupMessage-dummy.m"; sourceTree = "<group>"; };
+		F07F2EAFB1572525E223B9E2A47A5607 /* Pods-PopupMessage-PopupMessageTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopupMessage-PopupMessageTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CECA9AF6E95FDAB6A136BDD68DB6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F0F7F64060474538ED6B3BB024DE38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C68422DD2034160E15E1CD2CAAF635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC056782DCF36756605F501A034BB75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456BCE64DF21F36D54B76F38C955356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB1DD44D4DF6A3749FBA9C015DB4E7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC0AE6FFAFF371D8E31337AFB346946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC5E55715F4618B3228AD57CB06022B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09461EAD773101E3CC061E96736CC546 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7F863A2721077BDE5DFB82A6BB3A0 /* PopupMessage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		211F2081FCD5407813A3A34ACCDCE804 /* Pods-PopupMessageExample */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEFB2D84A4461BFD0E9DCC1A96FAAD /* Pods-PopupMessageExample.modulemap */,
+				2BDE5287D564C182F301CA3D31CE46B9 /* Pods-PopupMessageExample-acknowledgements.markdown */,
+				28068637B9F214F4FF46292F7DD77F81 /* Pods-PopupMessageExample-acknowledgements.plist */,
+				505C9A63C75E8265E63C49313AC52528 /* Pods-PopupMessageExample-dummy.m */,
+				49094CC909FC2CE79C9C6F27BB684296 /* Pods-PopupMessageExample-frameworks.sh */,
+				E1E8E3355967A4C1200C70753A429334 /* Pods-PopupMessageExample-Info.plist */,
+				B7A467D907467E04A7E9A3ADB5573D5A /* Pods-PopupMessageExample-umbrella.h */,
+				9C774D34231C4EAA76FF5B0ABBC0EEE4 /* Pods-PopupMessageExample.debug.xcconfig */,
+				BE50A7B5CA1ACD1AB5EE9632737049C7 /* Pods-PopupMessageExample.release.xcconfig */,
+			);
+			name = "Pods-PopupMessageExample";
+			path = "Target Support Files/Pods-PopupMessageExample";
+			sourceTree = "<group>";
+		};
+		22C12E631800BF143D7176D328A9ABBA /* Pods-PopupMessage */ = {
+			isa = PBXGroup;
+			children = (
+				039B87003E1A3D84632D9BF9ABCFE86C /* Pods-PopupMessage.modulemap */,
+				C8EDAB7D6FE0D8FA8EB6FC40A1FD7768 /* Pods-PopupMessage-acknowledgements.markdown */,
+				CD50F365128C3234F59FD41F1FEEDEB9 /* Pods-PopupMessage-acknowledgements.plist */,
+				C6FEA12930243083899AC898C97FF3EE /* Pods-PopupMessage-dummy.m */,
+				A742992E490EAC2FB7C1FEBFECA7DBBA /* Pods-PopupMessage-Info.plist */,
+				BE7FE9AE8B1BC8A0846FA250A3581149 /* Pods-PopupMessage-umbrella.h */,
+				96C55CFABCC32A28AB18B7ACABA9C757 /* Pods-PopupMessage.debug.xcconfig */,
+				75FB2C31E70CFC9D24AE346BFB62F5D7 /* Pods-PopupMessage.release.xcconfig */,
+			);
+			name = "Pods-PopupMessage";
+			path = "Target Support Files/Pods-PopupMessage";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EE7F863A2721077BDE5DFB82A6BB3A0 /* PopupMessage */ = {
+			isa = PBXGroup;
+			children = (
+				58E5AAF98985574AE535134CFF13A77B /* PopupMessage.h */,
+				717302CBD9A07B588A296DD9E350C033 /* PopupMessage.swift */,
+				A184450B59AA73E7CDB3FE785A905C8A /* PopupMessageViewController.storyboard */,
+				6AF3D10D3D715D6597716D4E20948317 /* PopupMessageViewController.swift */,
+				F5D70EBDDD9FB2D69F5C1C1E17D788ED /* Support Files */,
+			);
+			name = PopupMessage;
+			path = PopupMessage;
+			sourceTree = "<group>";
+		};
+		976DF299CD5E62F713A96FD11EA3D99E /* Pods-PopupMessage-PopupMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C96E63308EAB9DE57A010ACA9E41D761 /* Pods-PopupMessage-PopupMessageTests.modulemap */,
+				44A196D5B1278FF93ADC3675FCAE7B11 /* Pods-PopupMessage-PopupMessageTests-acknowledgements.markdown */,
+				A6731FA53B0D98F77A621DCCD63EE6C4 /* Pods-PopupMessage-PopupMessageTests-acknowledgements.plist */,
+				317CA081AC92E9BB5C2E04BF0FEE7238 /* Pods-PopupMessage-PopupMessageTests-dummy.m */,
+				78E3A8355308BCC4A8ACD3FEB10CF62A /* Pods-PopupMessage-PopupMessageTests-Info.plist */,
+				F07F2EAFB1572525E223B9E2A47A5607 /* Pods-PopupMessage-PopupMessageTests-umbrella.h */,
+				18DFC541364D62A78A9020B832324FBA /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */,
+				1AB3C522E023DE9632A5551B1EB26981 /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */,
+			);
+			name = "Pods-PopupMessage-PopupMessageTests";
+			path = "Target Support Files/Pods-PopupMessage-PopupMessageTests";
+			sourceTree = "<group>";
+		};
+		CD1E95E0A8EC70555F607FAEEA07EC8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB1229C9B0B38BE643F3BC81E0DBCC /* Pods_PopupMessage.framework */,
+				3B568EE902F8BD1BEA53A5755FE979C7 /* Pods_PopupMessage_PopupMessageTests.framework */,
+				616F4E34E3656296AB48440E7B843164 /* Pods_PopupMessageExample.framework */,
+				81E00ED376AF95A77A2139DA1E8394DE /* PopupMessage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				09461EAD773101E3CC061E96736CC546 /* Pods */,
+				CD1E95E0A8EC70555F607FAEEA07EC8E /* Products */,
+				F54FB92A4DCAFA89AA232BDABEBF00C1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F54FB92A4DCAFA89AA232BDABEBF00C1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C12E631800BF143D7176D328A9ABBA /* Pods-PopupMessage */,
+				976DF299CD5E62F713A96FD11EA3D99E /* Pods-PopupMessage-PopupMessageTests */,
+				211F2081FCD5407813A3A34ACCDCE804 /* Pods-PopupMessageExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5D70EBDDD9FB2D69F5C1C1E17D788ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C34B70AB6CF92C98A308EA02D99971A /* PopupMessage.modulemap */,
+				E79A393D6322A4337D779CCEDC9DFDE7 /* PopupMessage-dummy.m */,
+				69A3F46883EC27B0805EFEAB51023176 /* PopupMessage-Info.plist */,
+				93D88D56757FBBF3196FA90C86D913BB /* PopupMessage-prefix.pch */,
+				804AFC9B66F2950BC1C4BECB27E30E71 /* PopupMessage-umbrella.h */,
+				8957E6001316D87B7A6BD3A53A23A46F /* PopupMessage.debug.xcconfig */,
+				01F8D01E7890F22DE0602983F20376B4 /* PopupMessage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupMessage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A8CB3982C45687E5BC601B0952CFED6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A951ED13E184ED6BF6B8D33BE24F87 /* Pods-PopupMessage-PopupMessageTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15932C4A5F7A906EB679A319B6EA3C6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA47975987B052FD3E573B6DEDE32336 /* PopupMessage-umbrella.h in Headers */,
+				DF6E892C7F5636F7EF0A5EE302C420AA /* PopupMessage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF6EF4FA758A644F826A8F2CE67610A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047349A5DDF98A02E69229CF12821DF /* Pods-PopupMessageExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F643F1E29194CA6ABF8924D79B9439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867E7DE2CBA720D8933BB4036AA2D096 /* Pods-PopupMessage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06E38B5F9A7690F80C99E51631DBB937 /* Pods-PopupMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C450A4BA759AA06D2F3C41C6836788 /* Build configuration list for PBXNativeTarget "Pods-PopupMessage" */;
+			buildPhases = (
+				D8F643F1E29194CA6ABF8924D79B9439 /* Headers */,
+				B040C14322BBDE559762DF0855D081CB /* Sources */,
+				19C68422DD2034160E15E1CD2CAAF635 /* Frameworks */,
+				BE54695B6DB0FD47E4D7CB0E6AB6CED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PopupMessage";
+			productName = "Pods-PopupMessage";
+			productReference = 4CBB1229C9B0B38BE643F3BC81E0DBCC /* Pods_PopupMessage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2072B204A7D40A63040C093C6BE1BB43 /* Pods-PopupMessage-PopupMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F3208D5038F6A67AF96E802F5E5CFC /* Build configuration list for PBXNativeTarget "Pods-PopupMessage-PopupMessageTests" */;
+			buildPhases = (
+				0A8CB3982C45687E5BC601B0952CFED6 /* Headers */,
+				16121C3DC007BFBDDCB6F4E90F184770 /* Sources */,
+				456BCE64DF21F36D54B76F38C955356B /* Frameworks */,
+				5F55ED7F33BBEF5627141D4D4BD188C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PopupMessage-PopupMessageTests";
+			productName = "Pods-PopupMessage-PopupMessageTests";
+			productReference = 3B568EE902F8BD1BEA53A5755FE979C7 /* Pods_PopupMessage_PopupMessageTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A6C8E7433CCB39EA68DF1DE674B4441 /* PopupMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637B6C9CAB483EEFE7AA387CBC74CC9D /* Build configuration list for PBXNativeTarget "PopupMessage" */;
+			buildPhases = (
+				15932C4A5F7A906EB679A319B6EA3C6E /* Headers */,
+				DBDC638B52FC7DD2E58E1D68FB49BEBB /* Sources */,
+				16CECA9AF6E95FDAB6A136BDD68DB6FB /* Frameworks */,
+				28E4BB09B5755F42D6672184791527A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupMessage;
+			productName = PopupMessage;
+			productReference = 81E00ED376AF95A77A2139DA1E8394DE /* PopupMessage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61785123DFF5E69DC07B03F050734637 /* Pods-PopupMessageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D526F8E40BB9EBFEBE1776A65E9EE486 /* Build configuration list for PBXNativeTarget "Pods-PopupMessageExample" */;
+			buildPhases = (
+				3BF6EF4FA758A644F826A8F2CE67610A /* Headers */,
+				B2915E85EBB0DFEBB529EE76B4944E05 /* Sources */,
+				DAC0AE6FFAFF371D8E31337AFB346946 /* Frameworks */,
+				999B23165F8AA1A7F61B6459A9F4C1FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0101FAF1D3D2D39E7A94AEBC4E397C6D /* PBXTargetDependency */,
+			);
+			name = "Pods-PopupMessageExample";
+			productName = "Pods-PopupMessageExample";
+			productReference = 616F4E34E3656296AB48440E7B843164 /* Pods_PopupMessageExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD1E95E0A8EC70555F607FAEEA07EC8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E38B5F9A7690F80C99E51631DBB937 /* Pods-PopupMessage */,
+				2072B204A7D40A63040C093C6BE1BB43 /* Pods-PopupMessage-PopupMessageTests */,
+				61785123DFF5E69DC07B03F050734637 /* Pods-PopupMessageExample */,
+				5A6C8E7433CCB39EA68DF1DE674B4441 /* PopupMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E4BB09B5755F42D6672184791527A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F55ED7F33BBEF5627141D4D4BD188C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999B23165F8AA1A7F61B6459A9F4C1FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE54695B6DB0FD47E4D7CB0E6AB6CED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16121C3DC007BFBDDCB6F4E90F184770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA757F96BB036C9E99D595B92B395CD /* Pods-PopupMessage-PopupMessageTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B040C14322BBDE559762DF0855D081CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DB057F6A392D273D19B3EC7CFE8DD7 /* Pods-PopupMessage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2915E85EBB0DFEBB529EE76B4944E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C132F7335328919F755000D821C0D25F /* Pods-PopupMessageExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDC638B52FC7DD2E58E1D68FB49BEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59F273740179A18E9B56DD376E65436 /* PopupMessage-dummy.m in Sources */,
+				B885DE9C37750D683F83D14460ACE280 /* PopupMessage.swift in Sources */,
+				5C53E5625A0C5AD076096985CCF516D2 /* PopupMessageViewController.storyboard in Sources */,
+				AD341DEF4C36D08D492E629C78A7523E /* PopupMessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0101FAF1D3D2D39E7A94AEBC4E397C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupMessage;
+			target = 5A6C8E7433CCB39EA68DF1DE674B4441 /* PopupMessage */;
+			targetProxy = 005E20B9960CB54EA6A715D3D0B4C01E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08483C3056F894C86B7B22E33265B267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75FB2C31E70CFC9D24AE346BFB62F5D7 /* Pods-PopupMessage.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		130F83B66A37C25C9947F7C3C8D3BDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB3C522E023DE9632A5551B1EB26981 /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3DAA0D95EC39306ECF6B42EACB2ED5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C55CFABCC32A28AB18B7ACABA9C757 /* Pods-PopupMessage.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7FF5D14109B31AF9C725A6B667E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8957E6001316D87B7A6BD3A53A23A46F /* PopupMessage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupMessage/PopupMessage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupMessage/PopupMessage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupMessage/PopupMessage.modulemap";
+				PRODUCT_MODULE_NAME = PopupMessage;
+				PRODUCT_NAME = PopupMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C319C5F07B3C1B3829A8D82B8C31738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE50A7B5CA1ACD1AB5EE9632737049C7 /* Pods-PopupMessageExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A57A07B2FB275B4C45C74B664CC190E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DFC541364D62A78A9020B832324FBA /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B52B1F793F0255945051E96E9017F196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C774D34231C4EAA76FF5B0ABBC0EEE4 /* Pods-PopupMessageExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EE965AF0F8617C41C084CAA6D4D3C86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F8D01E7890F22DE0602983F20376B4 /* PopupMessage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupMessage/PopupMessage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupMessage/PopupMessage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupMessage/PopupMessage.modulemap";
+				PRODUCT_MODULE_NAME = PopupMessage;
+				PRODUCT_NAME = PopupMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C450A4BA759AA06D2F3C41C6836788 /* Build configuration list for PBXNativeTarget "Pods-PopupMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAA0D95EC39306ECF6B42EACB2ED5CC /* Debug */,
+				08483C3056F894C86B7B22E33265B267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F3208D5038F6A67AF96E802F5E5CFC /* Build configuration list for PBXNativeTarget "Pods-PopupMessage-PopupMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57A07B2FB275B4C45C74B664CC190E1 /* Debug */,
+				130F83B66A37C25C9947F7C3C8D3BDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637B6C9CAB483EEFE7AA387CBC74CC9D /* Build configuration list for PBXNativeTarget "PopupMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7FF5D14109B31AF9C725A6B667E7F /* Debug */,
+				EE965AF0F8617C41C084CAA6D4D3C86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D526F8E40BB9EBFEBE1776A65E9EE486 /* Build configuration list for PBXNativeTarget "Pods-PopupMessageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52B1F793F0255945051E96E9017F196 /* Debug */,
+				8C319C5F07B3C1B3829A8D82B8C31738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

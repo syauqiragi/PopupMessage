@@ -1,0 +1,16 @@
+PODS:
+  - PopupMessage (0.0.1)
+
+DEPENDENCIES:
+  - PopupMessage
+
+SPEC REPOS:
+  trunk:
+    - PopupMessage
+
+SPEC CHECKSUMS:
+  PopupMessage: 24bb198e4083719de24bc74d171890df3161a93a
+
+PODFILE CHECKSUM: 716e19d3657c6af549ccb1dae1aed3a5de5842ad
+
+COCOAPODS: 1.10.0
