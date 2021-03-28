@@ -8,7 +8,7 @@
 import UIKit
 
 public class PopupMessage {
-    static func show(from viewController: UIViewController?, title: String, desc: String, buttonTitleYes: String = "Ok", buttonTitleNo: String = "", onTapYesButton: (() -> Void)? = nil, onTapNoButton: (() -> Void)? = nil) {
+    public static func show(from viewController: UIViewController?, title: String, desc: String, buttonTitleYes: String = "Ok", buttonTitleNo: String = "", onTapYesButton: (() -> Void)? = nil, onTapNoButton: (() -> Void)? = nil) {
         
         let storyboard = UIStoryboard(name: "PopupMessageViewController", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "PopupMessageViewController") as! PopupMessageViewController

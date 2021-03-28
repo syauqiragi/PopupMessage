@@ -1,5 +1,5 @@
 PODS:
-  - PopupMessage (0.0.1)
+  - PopupMessage (0.0.3)
 
 DEPENDENCIES:
   - PopupMessage
@@ -9,8 +9,8 @@ SPEC REPOS:
     - PopupMessage
 
 SPEC CHECKSUMS:
-  PopupMessage: 24bb198e4083719de24bc74d171890df3161a93a
+  PopupMessage: 3653aec2c78f11ba7774407d9e040c0ce43fb1da
 
 PODFILE CHECKSUM: 716e19d3657c6af549ccb1dae1aed3a5de5842ad
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
