@@ -19,9 +19,9 @@
 		008E9DB0261041C90078AA05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008E9DAE261041C90078AA05 /* Main.storyboard */; };
 		008E9DB2261041CC0078AA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008E9DB1261041CC0078AA05 /* Assets.xcassets */; };
 		008E9DB5261041CC0078AA05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008E9DB3261041CC0078AA05 /* LaunchScreen.storyboard */; };
-		1F68F7E8AC30F98C1E827C30 /* Pods_PopupMessageExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC706B40073D4EA8D4940A91 /* Pods_PopupMessageExample.framework */; };
-		A5ED4EC2742AB324AA9500D9 /* Pods_PopupMessage_PopupMessageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8C4CC80DC6E4EFA9671CF3 /* Pods_PopupMessage_PopupMessageTests.framework */; };
-		FC0BCB05F9EB6D162A9C61AD /* Pods_PopupMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23D34AAD4AAABA074257E96 /* Pods_PopupMessage.framework */; };
+		5B03CEE13ACE9F322BF4AD55 /* Pods_PopupMessageExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93B4E27BC4DAFB303C5956B /* Pods_PopupMessageExample.framework */; };
+		959ED6CD32D72927BDE71868 /* Pods_PopupMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7D53436D1CD18C48A5CF01 /* Pods_PopupMessage.framework */; };
+		E72D8F68B6060E9EC4D2D2EA /* Pods_PopupMessage_PopupMessageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C90C401459CB9E7C353F02 /* Pods_PopupMessage_PopupMessageTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,15 +52,15 @@
 		008E9DB1261041CC0078AA05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008E9DB4261041CC0078AA05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008E9DB6261041CC0078AA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		011454BB43AD0682274EAF96 /* Pods-PopupMessageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessageExample.debug.xcconfig"; path = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample.debug.xcconfig"; sourceTree = "<group>"; };
-		35D936C7FC914B698AC3F139 /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage-PopupMessageTests.debug.xcconfig"; path = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests.debug.xcconfig"; sourceTree = "<group>"; };
-		843DBFFAAEA74D59874E826A /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage-PopupMessageTests.release.xcconfig"; path = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests.release.xcconfig"; sourceTree = "<group>"; };
-		929CE910860E8DCDECE30B31 /* Pods-PopupMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage.release.xcconfig"; path = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage.release.xcconfig"; sourceTree = "<group>"; };
-		95350786AB45E34CBB7F85E1 /* Pods-PopupMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage.debug.xcconfig"; path = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage.debug.xcconfig"; sourceTree = "<group>"; };
-		A23D34AAD4AAABA074257E96 /* Pods_PopupMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC706B40073D4EA8D4940A91 /* Pods_PopupMessageExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMessageExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB8C4CC80DC6E4EFA9671CF3 /* Pods_PopupMessage_PopupMessageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMessage_PopupMessageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E54719E8DCD04D3B293F3109 /* Pods-PopupMessageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessageExample.release.xcconfig"; path = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample.release.xcconfig"; sourceTree = "<group>"; };
+		2C2C6AB38889A92E37F30A62 /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage-PopupMessageTests.debug.xcconfig"; path = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ED54975677ED1159344C8A9 /* Pods-PopupMessageExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessageExample.release.xcconfig"; path = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample.release.xcconfig"; sourceTree = "<group>"; };
+		43C90C401459CB9E7C353F02 /* Pods_PopupMessage_PopupMessageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMessage_PopupMessageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCD89D83C5C75F613E66F3D /* Pods-PopupMessageExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessageExample.debug.xcconfig"; path = "Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample.debug.xcconfig"; sourceTree = "<group>"; };
+		65FDBCB6E9917AA267BFC649 /* Pods-PopupMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage.release.xcconfig"; path = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage.release.xcconfig"; sourceTree = "<group>"; };
+		A48776D3B258DBAA64A07FC9 /* Pods-PopupMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage.debug.xcconfig"; path = "Target Support Files/Pods-PopupMessage/Pods-PopupMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		C1F4C83023CBCCE72EE4D82B /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMessage-PopupMessageTests.release.xcconfig"; path = "Target Support Files/Pods-PopupMessage-PopupMessageTests/Pods-PopupMessage-PopupMessageTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF7D53436D1CD18C48A5CF01 /* Pods_PopupMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93B4E27BC4DAFB303C5956B /* Pods_PopupMessageExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMessageExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0BCB05F9EB6D162A9C61AD /* Pods_PopupMessage.framework in Frameworks */,
+				959ED6CD32D72927BDE71868 /* Pods_PopupMessage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008E9C4A261036D40078AA05 /* PopupMessage.framework in Frameworks */,
-				A5ED4EC2742AB324AA9500D9 /* Pods_PopupMessage_PopupMessageTests.framework in Frameworks */,
+				E72D8F68B6060E9EC4D2D2EA /* Pods_PopupMessage_PopupMessageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F68F7E8AC30F98C1E827C30 /* Pods_PopupMessageExample.framework in Frameworks */,
+				5B03CEE13ACE9F322BF4AD55 /* Pods_PopupMessageExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 				008E9DA7261041C90078AA05 /* PopupMessageExample */,
 				008E9C41261036D40078AA05 /* Products */,
 				065882C5F420AADB016BA575 /* Pods */,
-				089DCA7F0D5D166860D71EB7 /* Frameworks */,
+				C858612BAF56FED5B280B850 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,22 +152,22 @@
 		065882C5F420AADB016BA575 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95350786AB45E34CBB7F85E1 /* Pods-PopupMessage.debug.xcconfig */,
-				929CE910860E8DCDECE30B31 /* Pods-PopupMessage.release.xcconfig */,
-				35D936C7FC914B698AC3F139 /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */,
-				843DBFFAAEA74D59874E826A /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */,
-				011454BB43AD0682274EAF96 /* Pods-PopupMessageExample.debug.xcconfig */,
-				E54719E8DCD04D3B293F3109 /* Pods-PopupMessageExample.release.xcconfig */,
+				A48776D3B258DBAA64A07FC9 /* Pods-PopupMessage.debug.xcconfig */,
+				65FDBCB6E9917AA267BFC649 /* Pods-PopupMessage.release.xcconfig */,
+				2C2C6AB38889A92E37F30A62 /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */,
+				C1F4C83023CBCCE72EE4D82B /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */,
+				4CCD89D83C5C75F613E66F3D /* Pods-PopupMessageExample.debug.xcconfig */,
+				2ED54975677ED1159344C8A9 /* Pods-PopupMessageExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		089DCA7F0D5D166860D71EB7 /* Frameworks */ = {
+		C858612BAF56FED5B280B850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A23D34AAD4AAABA074257E96 /* Pods_PopupMessage.framework */,
-				CB8C4CC80DC6E4EFA9671CF3 /* Pods_PopupMessage_PopupMessageTests.framework */,
-				BC706B40073D4EA8D4940A91 /* Pods_PopupMessageExample.framework */,
+				CF7D53436D1CD18C48A5CF01 /* Pods_PopupMessage.framework */,
+				43C90C401459CB9E7C353F02 /* Pods_PopupMessage_PopupMessageTests.framework */,
+				F93B4E27BC4DAFB303C5956B /* Pods_PopupMessageExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008E9C54261036D40078AA05 /* Build configuration list for PBXNativeTarget "PopupMessage" */;
 			buildPhases = (
-				5A481655EDBAFF4296F6AB96 /* [CP] Check Pods Manifest.lock */,
+				916A825D1CB1880B8AB4B8F6 /* [CP] Check Pods Manifest.lock */,
 				008E9C3B261036D40078AA05 /* Headers */,
 				008E9C3C261036D40078AA05 /* Sources */,
 				008E9C3D261036D40078AA05 /* Frameworks */,
@@ -209,7 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008E9C57261036D40078AA05 /* Build configuration list for PBXNativeTarget "PopupMessageTests" */;
 			buildPhases = (
-				167F9AD1D4D38DD996971139 /* [CP] Check Pods Manifest.lock */,
+				A3FCF1E79D443EB90BBB3A32 /* [CP] Check Pods Manifest.lock */,
 				008E9C45261036D40078AA05 /* Sources */,
 				008E9C46261036D40078AA05 /* Frameworks */,
 				008E9C47261036D40078AA05 /* Resources */,
@@ -228,11 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008E9DB7261041CC0078AA05 /* Build configuration list for PBXNativeTarget "PopupMessageExample" */;
 			buildPhases = (
-				CDA7D2E1464E3EAFF14C865A /* [CP] Check Pods Manifest.lock */,
+				38625F39C9E7CF0E6E79F5B1 /* [CP] Check Pods Manifest.lock */,
 				008E9DA2261041C90078AA05 /* Sources */,
 				008E9DA3261041C90078AA05 /* Frameworks */,
 				008E9DA4261041C90078AA05 /* Resources */,
-				884509AB74E3463EE19D9F21 /* [CP] Embed Pods Frameworks */,
+				F51B3C14AD18A966A90340D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,7 +313,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		167F9AD1D4D38DD996971139 /* [CP] Check Pods Manifest.lock */ = {
+		38625F39C9E7CF0E6E79F5B1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,14 +328,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PopupMessage-PopupMessageTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PopupMessageExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5A481655EDBAFF4296F6AB96 /* [CP] Check Pods Manifest.lock */ = {
+		916A825D1CB1880B8AB4B8F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,24 +357,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		884509AB74E3463EE19D9F21 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDA7D2E1464E3EAFF14C865A /* [CP] Check Pods Manifest.lock */ = {
+		A3FCF1E79D443EB90BBB3A32 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,11 +372,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PopupMessageExample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PopupMessage-PopupMessageTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51B3C14AD18A966A90340D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopupMessageExample/Pods-PopupMessageExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -580,7 +580,7 @@
 		};
 		008E9C55261036D40078AA05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95350786AB45E34CBB7F85E1 /* Pods-PopupMessage.debug.xcconfig */;
+			baseConfigurationReference = A48776D3B258DBAA64A07FC9 /* Pods-PopupMessage.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,7 +608,7 @@
 		};
 		008E9C56261036D40078AA05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 929CE910860E8DCDECE30B31 /* Pods-PopupMessage.release.xcconfig */;
+			baseConfigurationReference = 65FDBCB6E9917AA267BFC649 /* Pods-PopupMessage.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,7 +635,7 @@
 		};
 		008E9C58261036D40078AA05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35D936C7FC914B698AC3F139 /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */;
+			baseConfigurationReference = 2C2C6AB38889A92E37F30A62 /* Pods-PopupMessage-PopupMessageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,7 +654,7 @@
 		};
 		008E9C59261036D40078AA05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 843DBFFAAEA74D59874E826A /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */;
+			baseConfigurationReference = C1F4C83023CBCCE72EE4D82B /* Pods-PopupMessage-PopupMessageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -673,7 +673,7 @@
 		};
 		008E9DB8261041CC0078AA05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 011454BB43AD0682274EAF96 /* Pods-PopupMessageExample.debug.xcconfig */;
+			baseConfigurationReference = 4CCD89D83C5C75F613E66F3D /* Pods-PopupMessageExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -693,7 +693,7 @@
 		};
 		008E9DB9261041CC0078AA05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E54719E8DCD04D3B293F3109 /* Pods-PopupMessageExample.release.xcconfig */;
+			baseConfigurationReference = 2ED54975677ED1159344C8A9 /* Pods-PopupMessageExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
